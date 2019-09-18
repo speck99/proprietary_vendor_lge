@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2017 Qualcomm Technologies, Inc.
+        Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -121,7 +121,6 @@
                 Resolution is 720P
             -->
             <MaxOverlay>5</MaxOverlay>
-            <BlendMode>0</BlendMode>
             <HRes>1280</HRes>
             <VRes>720</VRes>
             <Mode>CEA</Mode>
@@ -153,7 +152,7 @@
             <FrameInterval>0</FrameInterval>
         </FrameSkipping>
 
-        <!--  enable HDCP by default -->
+        <!--  disable HDCP by default -->
         <ContentProtection>
             <Valid>1</Valid>
             <!--
@@ -174,21 +173,20 @@
         <LgCapability>
             <Valid>1</Valid>
             <Version>2</Version>
-            <LgOverlay>0</LgOverlay>
+            <LgOverlay>1</LgOverlay>
         </LgCapability>
 
         <LgTSMonitor>
             <LgTSMonitorValid>1</LgTSMonitorValid>
             <LgTSMonitorInterval>333</LgTSMonitorInterval>
         </LgTSMonitor>
-
         <!--
             To enable RTP dump at source
         -->
         <RTPDumpEnable>
             <!-- DEPRECATED -->
-            <!-- For enabling RTP encoder dumping
-                 persist.sys.enable_RTPDumps to  1
+            <!-- For enabling RTP encoder dumping set
+                 persist.vendor.debug.rtp.enable_dump to 1
                  /data/media/dump.ts
             -->
         </RTPDumpEnable>
@@ -236,18 +234,18 @@
                     REMOTECONTROL         BIT7
                 -->
                 <HIDInputPaths>
-                    <!-- LGE_CHANGE_S, miracast-dev@lge.com, only support USB Keyboard, disable others -->
                     <Infrared>0</Infrared>
                     <USB>1</USB>
                     <BT>0</BT>
                     <Zigbee>0</Zigbee>
                     <Wifi>0</Wifi>
                     <NoSP>0</NoSP>
-                    <!-- LGE_CHANGE_S, miracast-dev@lge.com, only support USB Keyboard, disable others -->
                 </HIDInputPaths>
             </InputEvents>
             <!--  TCP port on which UIBC connection established -->
-            <TcpPort>4321</TcpPort>
+            <!-- LGE_CHANGE_S, miracast-dev@lge.com, UIBC port num for LGE WFD device -->
+            <TcpPort>43210</TcpPort>
+            <!-- LGE_CHANGE_E, miracast-dev@lge.com, UIBC port num for LGE WFD device -->
         </UIBC>
 
     </Capability>
@@ -263,9 +261,8 @@
         Dynamic bitrate adaptation is supported based on link speed
         Based on the available link speed change video bitrate dynamically
     -->
-    <!-- LGE_CHANGE_S, miracast-dev@lge.com, Disable dynamic bit rate adaptation -->
+    <!-- LGE: Disable dynamic bit rate adaptation -->
     <DynamicBitrateAdaptation>0</DynamicBitrateAdaptation>
-    <!-- LGE_CHANGE_E, miracast-dev@lge.com, Disable dynamic bit rate adaptation -->
 
     <!--
         Send keep alive messages for every 50sec
@@ -360,12 +357,12 @@
           <!-- 1280x720p30  -->
             <BIT5>
                 <MinBitrate>2500000</MinBitrate>
-                <MaxBitrate>10000000</MaxBitrate>
+                <MaxBitrate>6000000</MaxBitrate>
             </BIT5>
           <!-- 1280x720p60  -->
             <BIT6>
-                <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>15000000</MaxBitrate>
+                <MinBitrate>2500000</MinBitrate>
+                <MaxBitrate>6000000</MaxBitrate>
             </BIT6>
           <!-- 1920x1080p30  -->
             <BIT7>
@@ -374,48 +371,48 @@
             </BIT7>
           <!-- 1920x1080p60  -->
             <BIT8>
-                <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MinBitrate>5000000</MinBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT8>
           <!-- 1920x1080i60  -->
             <BIT9>
-                <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MinBitrate>5000000</MinBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT9>
           <!-- 1280x720p25  -->
             <BIT10>
-                <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>10000000</MaxBitrate>
+                <MinBitrate>2500000</MinBitrate>
+                <MaxBitrate>6000000</MaxBitrate>
             </BIT10>
           <!-- 1280x720p50  -->
             <BIT11>
-                <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MinBitrate>2500000</MinBitrate>
+                <MaxBitrate>6000000</MaxBitrate>
             </BIT11>
           <!-- 1920x1080p25  -->
             <BIT12>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT12>
           <!-- 1920x1080p50  -->
             <BIT13>
-                <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MinBitrate>5000000</MinBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT13>
           <!-- 1920x1080i50  -->
             <BIT14>
-                <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MinBitrate>5000000</MinBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT14>
           <!-- 1280x720p24  -->
             <BIT15>
                 <MinBitrate>2500000</MinBitrate>
-                <MaxBitrate>10000000</MaxBitrate>
+                <MaxBitrate>6000000</MaxBitrate>
             </BIT15>
           <!-- 1920x1080p24  -->
             <BIT16>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>10000000</MaxBitrate>
+                <MaxBitrate>8000000</MaxBitrate>
             </BIT16>
           <!--  3840x2160p24  -->
             <BIT17>
@@ -768,6 +765,6 @@
     <StreamingSupport>0</StreamingSupport>
 
     <!-- Enfore HDCP for Direct Streaming -->
-    <DSRequiresHDCP>1</DSRequiresHDCP>
+    <DSRequiresHDCP>0</DSRequiresHDCP>
 
 </WFDConfig>
