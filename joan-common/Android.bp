@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,26 +35,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "both",
 	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "android.hardware.bluetooth@1.0-impl-qti",
-	owner: "lge",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
-		},
-	},
-	compile_multilib: "both",
-	sub_dir: "hw",
-	prefer: true,
-	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
