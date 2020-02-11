@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/lib/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmframework.so \
     vendor/lge/sdm845-common/proprietary/lib/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmtcm.so \
     vendor/lge/sdm845-common/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
+    vendor/lge/sdm845-common/proprietary/lib/libmediaextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextractor.so \
     vendor/lge/sdm845-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/lge/sdm845-common/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/lge/sdm845-common/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
@@ -115,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmframework.so \
     vendor/lge/sdm845-common/proprietary/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmtcm.so \
     vendor/lge/sdm845-common/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
+    vendor/lge/sdm845-common/proprietary/lib64/libmediaextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmediaextractor.so \
     vendor/lge/sdm845-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/lge/sdm845-common/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/lge/sdm845-common/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
@@ -201,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/bin/tloc_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tloc_daemon \
     vendor/lge/sdm845-common/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/lge/sdm845-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
+    vendor/lge/sdm845-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/lge/sdm845-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/lge/sdm845-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/lge/sdm845-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
