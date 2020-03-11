@@ -24,10 +24,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/flashlmdd/proprietary/product/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
     vendor/lge/flashlmdd/proprietary/product/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
     vendor/lge/flashlmdd/proprietary/product/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
+    vendor/lge/flashlmdd/proprietary/vendor/bin/cpfirmware:$(TARGET_COPY_OUT_VENDOR)/bin/cpfirmware \
     vendor/lge/flashlmdd/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/lge/flashlmdd/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service \
     vendor/lge/flashlmdd/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/lge/flashlmdd/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Codec_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/flashlmdd/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/lge/flashlmdd/proprietary/vendor/etc/camera/iqm/fc4_awb.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/iqm/fc4_awb.dlc \
     vendor/lge/flashlmdd/proprietary/vendor/etc/camera/iqm/wb_graph_imx351.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/iqm/wb_graph_imx351.dlc \
     vendor/lge/flashlmdd/proprietary/vendor/etc/camera/iqm/wb_graph_imx351w.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/iqm/wb_graph_imx351w.dlc \
@@ -165,6 +175,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libpn553_fw_1D.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw_1D.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libpn553_fw_1D_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw_1D_64.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libpn553_fw_64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn553_fw_64.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.eeprom.imx351_m24c32.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.imx351_m24c32.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.eeprom.imx363_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.imx363_m24c64m.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.eeprom.s5k3m5_m24c32.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.s5k3m5_m24c32.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.eeprom.sl556_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.sl556_m24c64m.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.eeprom.sl846_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.sl846_m24c64m.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.sensor.imx351.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx351.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.sensor.imx363.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx363.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3m5.so \
@@ -327,8 +342,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared_snpe.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
@@ -461,6 +478,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/flashlmdd/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.eeprom.imx351_m24c32.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.imx351_m24c32.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.eeprom.imx363_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.imx363_m24c64m.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.eeprom.s5k3m5_m24c32.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.s5k3m5_m24c32.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.eeprom.sl556_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.sl556_m24c64m.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.eeprom.sl846_m24c64m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.sl846_m24c64m.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.sensor.imx351.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx351.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.sensor.imx363.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx363.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
@@ -631,8 +653,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared_snpe.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcinemaeffect.so \
     vendor/lge/flashlmdd/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
