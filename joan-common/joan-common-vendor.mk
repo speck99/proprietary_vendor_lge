@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmfdmgr.so \
     vendor/lge/joan-common/proprietary/lib/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmframework.so \
     vendor/lge/joan-common/proprietary/lib/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmtcm.so \
+    vendor/lge/joan-common/proprietary/lib/libdrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrm.so \
     vendor/lge/joan-common/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/lge/joan-common/proprietary/lib/libfmq.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmq.so \
     vendor/lge/joan-common/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
@@ -201,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan-common/proprietary/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmfdmgr.so \
     vendor/lge/joan-common/proprietary/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmframework.so \
     vendor/lge/joan-common/proprietary/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmtcm.so \
+    vendor/lge/joan-common/proprietary/lib64/libdrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdrm.so \
     vendor/lge/joan-common/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
     vendor/lge/joan-common/proprietary/lib64/libfmq.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmq.so \
     vendor/lge/joan-common/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
