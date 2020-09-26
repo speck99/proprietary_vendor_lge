@@ -18,6 +18,22 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/joan-common
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/joan-common/proprietary/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.configstore@1.1-service.rc \	
+    vendor/lge/joan-common/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.configstore@1.1-service \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/hw/memtrack.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/memtrack.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/hw/hwcomposer.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/hwcomposer.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/hw/hwcomposer.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/hw/memtrack.msm8998.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.msm8998.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdMetaData.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqdMetaData.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
+    vendor/lge/joan-common/proprietary/vendor/lib/libkeymaster3device.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libkeymaster3device.so \
+    vendor/lge/joan-common/proprietary/vendor/lib64/libkeymaster3device.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libkeymaster3device.so \
     vendor/lge/joan-common/proprietary/bin/dpm:$(TARGET_COPY_OUT_SYSTEM)/bin/dpm \
     vendor/lge/joan-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/lge/joan-common/proprietary/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/dpm/dpm.conf \
